@@ -16,7 +16,7 @@
 
 <description>
 
-部署大语言模型和向量数据库的相关应用到函数计算，向量计算与存储由RDS PostgreSQL提供支持
+部署大语言模型和向量数据库的相关应用到函数计算，向量计算与存储由PolarDB-PG PostgreSQL提供支持
 
 </description>
 
@@ -44,7 +44,7 @@
 | --- |  --- |
 | 函数计算 FC |  对 AIGC 进行 CPU/GPU 推理计算 |
 | 文件存储 NAS |  存储大语言模型以及Embedding服务所需要的模型, 新用户请先领取免费试用资源包https://free.aliyun.com/?product=9657388&crowd=personal |
-| RDS PostgreSQL数据库 |   提供OLTP和向量数据库服务, RDS新用户可领取免费试用https://free.aliyun.com/?searchKey=rds%20postgresql |
+| PolarDB-PG PostgreSQL数据库 |   提供OLTP和向量数据库服务, PolarDB-PG新用户可领取免费试用https://free.aliyun.com/?searchKey=PolarDB-PG%20postgresql |
 
 </service>
 
@@ -56,7 +56,7 @@
 
 您还需要注意：   
 您还需要注意：  
-1.基于PostgreSQL数据库的AI知识库应用 包含embedding服务， 大模型对话服务，以及数据库向量服务，涉及函数计算，文件存储NAS，RDS postgresql数据库，函数计算和文件存储NAS会在项目被访问的时候产生相关费用， RDS posgresql 则是在消耗完30次免费体验后 需要您自己付费购买新的实例 
+1.基于PostgreSQL数据库的AI知识库应用 包含embedding服务， 大模型对话服务，以及数据库向量服务，涉及函数计算，文件存储NAS，PolarDB-PG postgresql数据库，函数计算和文件存储NAS会在项目被访问的时候产生相关费用， PolarDB-PG posgresql 则是在消耗完30次免费体验后 需要您自己付费购买新的实例 
 
 2.项目部署会把embedding服务， 模型服务以及数据库服务等一起部署上去，需要花费5-10分钟的时间
 3.初始启动有大约 1 分钟的白屏时间，这是服务完全冷启动的状态，请耐心等待
@@ -101,7 +101,7 @@
 | --- |  --- |
 | 函数计算 FC |  对 AIGC 进行 CPU/GPU 推理计算 |
 | 文件存储 NAS |  存储大语言模型以及Embedding服务所需要的模型, 新用户请先领取免费试用资源包https://free.aliyun.com/?product=9657388&crowd=personal |
-| RDS PostgreSQL数据库 |  提供OLTP和向量数据库服务, RDS新用户可领取免费试用https://free.aliyun.com/?searchKey=rds%20postgresql |
+| PolarDB-PG PostgreSQL数据库 |  提供OLTP和向量数据库服务, PolarDB-PG新用户可领取免费试用https://free.aliyun.com/?searchKey=PolarDB-PG%20postgresql |
 
 推荐您拥有以下的产品权限 / 策略：
 
